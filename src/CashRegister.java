@@ -17,7 +17,7 @@ public class CashRegister {
         System.out.println("$" + amt + " is...");
 
         //start with the largest denomination
-        //use ints for quantity
+        //use ints for quantity - can't have a portion of a bill
         int hundreds = (int) amt / 100;
         System.out.println(hundreds + " $100 bills");
         //find the remaining amt after 100s have been accounted for
